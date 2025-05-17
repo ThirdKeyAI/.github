@@ -1,4 +1,4 @@
-![ThirdKey](logo.png "ThirdKey")
+![ThirdKey](../logo-key-sm.png "ThirdKey")
 # ThirdKey Projects
 
 Welcome to the official GitHub space for **ThirdKey** public projects. This repository hosts SDKs, example integrations, utilities, and other open-source tooling designed to help developers securely integrate with the ThirdKey AI Gateway.
