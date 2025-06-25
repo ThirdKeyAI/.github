@@ -1,3 +1,7 @@
-# [ThirdKey](https://thirdkey.ai)
+# Welcome to ThirdKey's Github
 
-## [SchemaPin Repo](https://github.com/ThirdKeyAI/SchemaPin)
+### [ThirdKey Homepage](https://thirdkey.ai)  
+### [ThirdKey Research](https://research.thirdkey.ai)  
+
+# Repos
+### [SchemaPin Repo](https://github.com/ThirdKeyAI/SchemaPin)  
