@@ -5,3 +5,5 @@
 
 # Repos
 ### [SchemaPin Repo](https://github.com/ThirdKeyAI/SchemaPin)  
+### [AgentNull](https://github.com/ThirdKeyAI/AgentNull)
+### [VectorSmuggle](https://github.com/jaschadub/VectorSmuggle)
