@@ -1,4 +1,4 @@
-<img src="https://thirdkey.ai/logo-tran.png">  
+<!-- <img src="https://thirdkey.ai/logo-tran.png">  -->
 
 # Secure AI Infrastructure for the Autonomous Future
 
