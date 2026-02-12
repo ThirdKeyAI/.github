@@ -33,6 +33,7 @@ Our flagship project is **[Symbiont](https://symbiont.dev)** — a next-generati
 | Project | Description |
 |--------|-------------|
 | 🔐 [SchemaPin](https://github.com/ThirdKeyAI/SchemaPin) | Cryptographic protocol for signing AI tool schemas and policies |
+| 🪪 [AgentPin](https://github.com/thirdkeyai/agentpin) | Domain-anchored cryptographic identity for AI agents |
 | 🕶️ [AgentNull](https://github.com/ThirdKeyAI/AgentNull) | Reference implementation of a restricted LLM agent for security testing |
 | 📦 [VectorSmuggle](https://github.com/jaschadub/VectorSmuggle) | Covert data exfiltration via vector embeddings (research prototype) |
 
