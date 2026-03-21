@@ -9,12 +9,12 @@ Our flagship project is **[Symbiont](https://symbiont.dev)** — a next-generati
 
 ## 🌐 Featured Project: [Symbiont](https://symbiont.dev)
 
-> **Symbiont** is a secure, AI-native programming language and multi-agent runtime.  
-> Designed for policy-aware autonomy, Symbiont empowers developers to build zero-trust, privacy-preserving agents that cooperate safely with humans and other systems.
+> **Symbiont** is a zero-trust runtime for autonomous AI agents with Cedar policy authorization, inter-agent communication governance, ToolClad declarative tool contracts, multi-tier sandboxing (Docker → gVisor → Firecracker), and a declarative DSL.
 
-- 🔐 Built with zero-trust security and verifiable behavior
-- 🧩 Extensible DSL with tree-sitter parsing and sandboxing
-- 🕸️ Agent orchestration, multi-modal context management, and cryptographic signing
+- 🔐 Cedar policy engine, CommunicationPolicyGate, cryptographic audit trails
+- 🧩 Declarative DSL with tree-sitter parsing, `symbi init/run/up` CLI
+- 🛠️ ToolClad integration — declarative `.clad.toml` tool contracts with typed validation
+- 🕸️ Inter-agent governance, ORGA reasoning loop, SchemaPin/AgentPin identity
 - ⚙️ Written in Rust for maximum performance and safety
 
 👉 **Explore the code**: [github.com/ThirdKeyAI/Symbiont](https://github.com/ThirdKeyAI/Symbiont)
@@ -34,9 +34,10 @@ Our flagship project is **[Symbiont](https://symbiont.dev)** — a next-generati
 |--------|-------------|
 | 🔐 [SchemaPin](https://github.com/ThirdKeyAI/SchemaPin) | Cryptographic protocol for signing AI tool schemas and policies |
 | 🪪 [AgentPin](https://github.com/thirdkeyai/agentpin) | Domain-anchored cryptographic identity for AI agents |
+| 👃 [AgentSniff](https://github.com/ThirdKeyAI/AgentSniff) | Detect AI agents operating on your network |
+| 🛡️ [ToolClad](https://github.com/ThirdKeyAI/ToolClad) | Declarative tool interface contracts for agentic runtimes (oneshot, session, browser) |
 | 🕶️ [AgentNull](https://github.com/ThirdKeyAI/AgentNull) | Reference implementation of a restricted LLM agent for security testing |
 | 📦 [VectorSmuggle](https://github.com/jaschadub/VectorSmuggle) | Covert data exfiltration via vector embeddings (research prototype) |
-| 👃 [AgentSniff](https://github.com/ThirdKeyAI/AgentSniff) | Detect AI agents operating on your network.  |
 
 ---
 
