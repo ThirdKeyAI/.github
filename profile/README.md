@@ -3,7 +3,7 @@
 # Secure AI Infrastructure for the Autonomous Future
 
 ThirdKey builds tools for secure, privacy-first, and verifiable AI agents.  
-Our flagship project is **[Symbiont](https://symbiont.dev)** — a next-generation agent framework and programming language built for trust, autonomy, and control.
+Our flagship project is **[Symbiont](https://symbiont.dev)** — a zero-trust runtime for autonomous AI agents with policy enforcement, cryptographic identity, and sandboxed execution.
 
 ---
 
