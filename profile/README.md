@@ -2,46 +2,61 @@
 
 # Secure AI Infrastructure for the Autonomous Future
 
-ThirdKey builds tools for secure, privacy-first, and verifiable AI agents.  
-Our flagship project is **[Symbiont](https://symbiont.dev)** — a zero-trust runtime for autonomous AI agents with policy enforcement, cryptographic identity, and sandboxed execution.
+ThirdKey builds the trust layer for autonomous AI agents — policy enforcement, cryptographic identity, tool governance, and network visibility.
 
 ---
 
-## 🌐 Featured Project: [Symbiont](https://symbiont.dev)
+## Featured Projects
 
-> **Symbiont** is a zero-trust runtime for autonomous AI agents with Cedar policy authorization, inter-agent communication governance, ToolClad declarative tool contracts, multi-tier sandboxing (Docker → gVisor → Firecracker), and a declarative DSL.
+### [Symbiont](https://github.com/ThirdKeyAI/Symbiont) — Policy-Governed Agent Runtime
 
-- 🔐 Cedar policy engine, CommunicationPolicyGate, cryptographic audit trails
-- 🧩 Declarative DSL with tree-sitter parsing, `symbi init/run/up` CLI
-- 🛠️ ToolClad integration — declarative `.clad.toml` tool contracts with typed validation
-- 🕸️ Inter-agent governance, ORGA reasoning loop, SchemaPin/AgentPin identity
-- ⚙️ Written in Rust for maximum performance and safety
+> AI agents are easy to demo and hard to trust. Symbiont is the Rust-native execution layer that separates agent intent from execution authority.
 
-👉 **Explore the code**: [github.com/ThirdKeyAI/Symbiont](https://github.com/ThirdKeyAI/Symbiont)
+- Cedar-based fine-grained policy authorization
+- Typestate-enforced ORGA reasoning loop (Observe → Reason → Gate → Act)
+- MCP tool integration with SchemaPin cryptographic verification
+- Docker sandboxing with resource limits and approval gates
+- Tamper-evident cryptographic audit trails
+- Secrets management via Vault/OpenBao, persistent memory, and RAG
+
+👉 **[symbiont.dev](https://symbiont.dev)** | **[Source](https://github.com/ThirdKeyAI/Symbiont)**
+
+### [ToolClad](https://github.com/ThirdKeyAI/ToolClad) — Declarative Tool Interface Contracts
+
+> Stop writing repetitive custom code for every tool. ToolClad defines typed, validated, policy-aware tool contracts in `.clad.toml` manifests.
+
+- Three execution modes: **oneshot** (CLI), **session** (interactive PTY with Cedar gating), **browser** (governed headless via CDP/Playwright)
+- Shell injection prevention, direct `execve` dispatch, process group isolation
+- 14 built-in type validators, conditional evaluation, evidence envelope generation
+- Reference implementations in Rust, Python, JavaScript, and Go
+
+### [AgentSniff](https://github.com/ThirdKeyAI/AgentSniff) — AI Agent Network Scanner
+
+> Detect AI agents operating on your network through passive monitoring, active probing, protocol detection, and behavioral analysis.
+
+- Seven detection techniques: passive DNS analysis (40+ LLM API domains), TCP port scanning, AgentPin identity discovery, MCP server probing, HTTP endpoint signatures, JA3 TLS fingerprinting, behavioral traffic patterns
+- Deploy standalone, via Docker, or Docker Compose with web dashboard
+- Continuous scanning, webhook/SMTP alerting, SQLite history
 
 ---
 
-## 🧪 Research & Innovation
-
-- **[ThirdKey Research Hub](https://research.thirdkey.ai)** — Read our whitepapers, designs, and future vision.
-- **[ThirdKey Homepage](https://thirdkey.ai)** — Overview of our mission and team.
-
----
-
-## 🗃️ Other Repositories
+## Trust Stack
 
 | Project | Description |
 |--------|-------------|
 | 🔐 [SchemaPin](https://github.com/ThirdKeyAI/SchemaPin) | Cryptographic protocol for signing AI tool schemas and policies |
 | 🪪 [AgentPin](https://github.com/thirdkeyai/agentpin) | Domain-anchored cryptographic identity for AI agents |
-| 👃 [AgentSniff](https://github.com/ThirdKeyAI/AgentSniff) | Detect AI agents operating on your network |
-| 🛡️ [ToolClad](https://github.com/ThirdKeyAI/ToolClad) | Declarative tool interface contracts for agentic runtimes (oneshot, session, browser) |
+
+## Research & Tools
+
+| Project | Description |
+|--------|-------------|
 | 🕶️ [AgentNull](https://github.com/ThirdKeyAI/AgentNull) | Reference implementation of a restricted LLM agent for security testing |
 | 📦 [VectorSmuggle](https://github.com/jaschadub/VectorSmuggle) | Covert data exfiltration via vector embeddings (research prototype) |
 
 ---
 
-## 📬 Stay Connected
+## Stay Connected
 
 - 🌐 Website: [thirdkey.ai](https://thirdkey.ai)
 - 🔬 Research: [research.thirdkey.ai](https://research.thirdkey.ai)
